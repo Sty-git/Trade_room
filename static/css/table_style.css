@@ -1,0 +1,150 @@
+/* @media screen and (min-width: 800px){ */
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #272A2E;
+    margin: 0;
+}
+
+#nav{
+    background-color: #1b2429;
+    height: 55px;
+    color: whitesmoke;
+    overflow: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    position:fixed;
+    z-index: 1;
+
+}
+    
+#opts{
+    width: 100%;
+    height: 100%;
+}
+
+
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;
+
+  }
+
+.column{
+    float: left;
+}
+
+.opts1{
+    height: 50%;
+    width: 100%;
+    background-color: #1B2429;
+    border: 1px solid black;
+}
+
+#search{
+    height: 90%;
+    width: 300px;
+    background-color: #1D2024;
+    color: gray;
+    margin: 2px 5px;
+    border-radius: 5px;
+}
+
+.active{
+    height: 90%;
+    width: 100px;
+    border-radius: 5px;
+    margin: 2px 2px;
+    background-color: #3E434B;
+    padding: 0px 6px;
+    /* border: 1px solid black; */
+    text-align: center;
+    color: whitesmoke;
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+.active_2{
+    height: 98%;
+    width: 120px;
+
+    background-color: #3E434B;
+    padding: 0px 6px;
+    border: 1px solid black;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+
+#hr{
+    height:1px;
+    border-width:0;
+    color:black;
+    background-color:black;
+}
+
+
+
+
+#customers {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    color: white !important;
+    font-size: 12px;
+    overflow: scroll;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid black;
+    padding: 2px;
+  }
+  
+  #customers tr:nth-child(even){background-color: black;}
+  #customers tr:nth-child(odd){background-color:#3F444C;}
+  
+  #customers tr:hover {background-color: #111C24;}
+  
+  #customers th {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: left;
+    background-color: #13161A;
+    color: gray;
+  }
+
+  #customers tr td:nth-child(6):not(:nth-child(odd)){background-color:#2489aa;}
+  #customers tr td:nth-child(5):not(:nth-child(even)){background-color:#dd9a27;}
+
+.line{
+    width: 50px;
+    height: 100%;
+  }
+
+.Curr{
+    width: 100px;
+    height: 100%;
+  }
+
+.top{
+    width: 100%;
+    height: 120px !important;
+    font-size: 12px;
+    color: whitesmoke !important;
+    border-right: 1px solid black;
+    margin-bottom: 5px;
+}
+
+.line{
+    width: 50px;
+    height: 100%;
+    border-right: 1px solid black;
+
+}
+
+.curr{
+    
+}

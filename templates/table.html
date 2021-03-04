@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>TradeRoom</title>
+    <link rel="stylesheet" href="../static/css/table_style.css">
+
+
+
+</head>
+
+<body>
+
+
+    <div id="nav">
+      
+
+
+        <div id="opts" class="column">
+            
+            <div class="opts1">
+                <input type="search" placeholder="Search" name="search" id="search" class="column">
+                <div class="active column">
+                    <span>Reset</span>
+
+                </div>
+                <div class="active column">
+                    <span>Active Filters</span>
+
+                </div>
+                <div class="active column">
+                    <span>Save as Watchlist</span>
+
+                </div>
+                <div class="active column">
+                    <span>Refresh Data</span>
+
+                </div>
+
+
+            </div>
+            <div class="opts1">
+                <div class="active_2 column">
+                    <span>Forwards and Cash</span>
+
+                </div>
+                <div class="active_2 column">
+                    <span>Currencies</span>
+
+                </div>
+                <div class="active_2 column">
+                    <span>SubType</span>
+
+                </div>
+                <div class="active_2 column">
+                    <span>Tropical</span>
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+    <table id="customers">
+        <tr>
+            <th>Product</th>
+            <th>Low</th>
+            <th>High</th>
+            <th>Change</th>
+            <th style="color: #dd9a27;">Sell</th>
+            <th style="color: #2489aa;">Buy</th>
+
+        </tr>
+        {% for i in final_list %}
+            <tr>
+                <td>{{ i[0] }}</td>
+                <td>{{ i[1] }}</td>
+                <td>{{ i[2] }}</td>
+                <td>{{ i[3] }}</td>
+                <td>{{ i[4] }}</td>
+                <td>{{ i[5] }}</td>
+            </tr>
+        {% endfor %}
+
+    </table>
+
+
+</body>
+</html>

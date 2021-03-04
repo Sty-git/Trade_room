@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>TradeRoom</title>
+    <link rel="stylesheet" href="../static/css/home_style.css">
+
+
+
+</head>
+
+<body>
+
+    <div id="nav">
+
+        <div id="logo" class="column">
+
+            <img src="../static/icons/002-user.png" class="image" height="20px" width="20px" alt="user">
+
+            
+
+        </div>
+
+        <div id="account" class="column">
+            <div class="account_d column" >
+                <img src="../static/icons/account.svg"   height="20px" width="20px" alt="account">
+            </div>
+            <div class="account_d column">
+                Demo 21307249
+            </div>
+
+        </div>
+
+        <div id="search" class="column">
+            <img src="../static/icons/001-loupe.png" class="image" height="20px" width="20px" alt="magnify">
+
+        </div>
+
+        <div id="opts" class="column">
+
+            <div id="opts1">
+
+                <div id="opts1_1">
+                    Home
+
+                </div>
+                
+
+            </div>
+            <div id="opts2">
+                <div class=" ">
+                    <div class="dropdown opts2_1 column">
+                        <button class="dropbtn" onclick="myFunction()">Products 
+                          <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content" id="myDropdown">
+                          <a href="#">Library</a>
+                          <hr id="hr">
+                          <a href="#">Commodities</a>
+                          <a href="#">Crypto</a>
+                          <a href="/data_ex" onclick="abn()" target="iframe_a" >Currencies</a>
+                          <a href="#">ETFs</a>
+                          <a href="#">Forex Indices</a>
+                          <a href="#">Indices</a>
+                          <a href="#">Share Baskets</a>
+                          <a href="#">Shares</a>
+                          <a href="#">Treasuries</a>
+                       
+                        </div>
+                    </div>
+                </div>
+                <div  class="opts2_1 column">
+                    Watchlists
+
+                </div>
+                <div class="opts2_1 column">
+                    Account
+
+                </div>
+                <div class="opts2_1 column">
+                    News&Analysis
+
+                </div>
+                <div class="opts2_1 column">
+                    Settings
+
+                </div>
+                <div  class="opts2_1 column">
+                    Windows
+
+                </div>
+                <div id="opts2_2" class="column">
+                   
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+        <div id="openacc" class="column">
+            <div class="openacc_d column d" >
+                <img src="../static/icons/002-user.png"   height="25px" width="25px" alt="account">
+            </div>
+            <div class="openacc_d column d1">
+                Open a Live Account
+            </div>
+
+        </div>
+        <div id="money" class=" column">
+            <div class="money_d" >
+                <div  class=" money_d1 column">
+                    Total margin:
+                </div>
+                <div class=" money_d1 column dd1">
+                    $0.00
+                </div>
+            </div>
+            <div class="money_d">
+                <div class=" money_d1 column">
+                    Available:
+
+                </div>
+                <div class=" money_d1 column dd1">
+                    <span class="money_span">$11,000.14</span>
+
+                </div>
+    
+            </div>
+
+        </div>
+        
+        <div class=" money_display column">
+            <div Class="money_display_d column">
+                
+                <!-- <img src="../static/icons/002-user.png"   height="25px" width="25px" alt="account"> -->
+
+                
+
+            </div>
+            <div Class="money_display_d1 column">
+                <div id="money_display_d_d" >
+                    <span>Account Value</span>
+
+                </div>
+                <div id="money_display_d_d1">
+
+                    <span id="money_display_span">$11,000.14</span>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <div id="money1" class= "column">
+            <div class="money_d" >
+                <div  class=" money_d1 column">
+                    Cash:
+                </div>
+                <div class=" money_d1 column dd1">
+                    $11,000.14
+                </div>
+            </div>
+            <div class="money_d">
+                <div class=" money_d1 column">
+                    Profit:
+
+                </div>
+                <div class=" money_d1 column dd1">
+                    <span class="money_span">$0.00</span>
+
+                </div>
+    
+            </div>
+            
+        </div>
+        <div class="arrow column">
+            <span>></span>
+        </div>
+
+        <div class="extra column">
+ 
+            <div class="extra_d">
+               <span>12:14:24</span>
+            </div>
+            <div class="">
+
+
+
+            </div>
+        </div>
+
+
+    </div>
+    <br>
+    <br>
+    <div>
+        <div>
+            <iframe id="iframe" src="" name="iframe_a"></iframe>
+        </div>
+    </div>
+    <script src="../static/javascript/home_j.js"></script>
+    <script>function abn(){
+        document.getElementById('iframe').style.border = '2px solid black';}</script>
+</body>
+</html>
